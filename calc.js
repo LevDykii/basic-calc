@@ -78,7 +78,7 @@ function division() {
     document.getElementById('summ').innerHTML = '0';
   }
   else {
-    document.getElementById('summ').innerHTML = result;
+    document.getElementById('summ').innerHTML = result.;
     console.log(result);
   }
 }
