@@ -3,33 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Калькулятор простих чисел</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <div class="form">
 
     <div class="title">
-      <p>Калькулятор простих чисел</p>
+      <h1>Калькулятор простих чисел</h1>
     </div>
 
     <div class="input">
       <div>Введіть число 1
-        <input>
+        <input type="number">
       </div>
-      <div>Введіть число 1
-        <input>
+      <div>Введіть число 2
+        <input type="number">
       </div>
     </div>
 
     <div class="operation">
       <p>Натисніть потрібну кнопку для отримання результату:</p>
-      <div class="addition">+</div>
-      <div class="subtraction">-</div>
-      <div class="multiplication">*</div>
-      <div class="division">/</div>
+      <input class="button" type="button" value="+">
+      <input class="button" type="button" value="-">
+      <input class="button" type="button" value="*">
+      <input class="button" type="button" value="/">
     </div>
 
     <div class="result">
-      <p>Результат:</p>
+      <div>Результат:</div>
       <div class="summ">0</div>
     </div>
 
