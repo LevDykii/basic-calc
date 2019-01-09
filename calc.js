@@ -14,8 +14,11 @@ function addition() {
     alert("Впевніться будь ласка що введені обидва числа!");
     document.getElementById('summ').innerHTML = '0';
   }
+  else if(n1 === 777 && n2 === 223) {
+    alert('Вітаємо вас, ви вибрали правильну комбінацію "Пасхального Яйця"!');
+  }
   else {
-    document.getElementById('summ').innerHTML = result.toFixed(2);
+    document.getElementById('summ').innerHTML = result;
     console.log(result);
   }
 }
@@ -35,7 +38,7 @@ function substraction() {
     document.getElementById('summ').innerHTML = '0';
   }
   else {
-    document.getElementById('summ').innerHTML = result.toFixed(2);
+    document.getElementById('summ').innerHTML = result;
     console.log(result);
   }
 }
@@ -55,7 +58,7 @@ function multiplication() {
     document.getElementById('summ').innerHTML = '0';
   }
   else {
-    document.getElementById('summ').innerHTML = result.toFixed(2);
+    document.getElementById('summ').innerHTML = result;
     console.log(result);
   }
 }
@@ -75,7 +78,7 @@ function division() {
     document.getElementById('summ').innerHTML = '0';
   }
   else {
-    document.getElementById('summ').innerHTML = result.toFixed(2);
+    document.getElementById('summ').innerHTML = result;
     console.log(result);
   }
 }
