@@ -79,3 +79,9 @@ function division() {
     console.log(result);
   }
 }
+
+function reset() {
+  document.getElementById('num1').value = '';
+  document.getElementById('num2').value = '';
+  document.getElementById('summ').innerHTML = '0';
+}

@@ -43,3 +43,12 @@ body {
 #summ {
   color: blue;
 }
+
+.button2 {
+  background-color: red;
+  text-align: center;
+  line-height: 2em;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
