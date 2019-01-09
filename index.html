@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Калькулятор простих чисел</title>
   <link href="style.css" rel="stylesheet">
+  <script src="calc.js"></script>
 </head>
 <body>
   <div class="form">
@@ -14,24 +15,24 @@
 
     <div class="input">
       <div>Введіть число 1
-        <input type="number">
+        <input type="number" id="num1">
       </div>
       <div>Введіть число 2
-        <input type="number">
+        <input type="number" id="num2">
       </div>
     </div>
 
     <div class="operation">
       <p>Натисніть потрібну кнопку для отримання результату:</p>
-      <input class="button" type="button" value="+">
-      <input class="button" type="button" value="-">
-      <input class="button" type="button" value="*">
-      <input class="button" type="button" value="/">
+      <input class="button" type="button" step="0.2" value="+" onclick="addition()">
+      <input class="button" type="button" step="0.2" value="-" onclick="substraction()">
+      <input class="button" type="button" step="0.2" value="*" onclick="multiplication()">
+      <input class="button" type="button" step="0.2" value="/" onclick="division()">
     </div>
 
     <div class="result">
       <div>Результат:</div>
-      <div class="summ">0</div>
+      <div id="summ">0</div>
     </div>
 
   </div>
